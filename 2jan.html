@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="First Name">First Name</label>
+        <input type="text" id="First Name" required>
+        <br>
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last Name" required>
+        <br>
+        <label for="course">Course</label>
+        <select id="course">
+            <option value="">Course</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.com">B.com</option>
+        <option value="B.B.A">B.B.A</option>
+        </select>
+        <br>
+        <label for="gender">Gender</label>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="male">
+        <label for="gender">female</label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br>
+        <label for="DOB">DOB</label>
+        <input type="datetime-local" name="DOB" id="dob">
+        <br>
+        <label for="phone">Phone</label>
+        <input type="tel" value="+91" disabled style="width: 30px;">
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <label for="adress">adress</label><br>
+        <textarea name="adress" id="adress" cols="30" rows="10"></textarea><br>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <br>
+        <label for=" password">password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for=" confirm-password">confirm password</label>
+        <input type="password" name="confirm-password" id="confirm password">
+        <br>
+        <label for="terms">Agree to terms aand condition</label>
+        <input type="checkbox" name="terms" id="terms">
+        <br>
+        <label for="profile">profile picture</label>
+        <input type="file" name="profile" id="profile">
+        <br>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </fieldset>
+</body>
+</html>
